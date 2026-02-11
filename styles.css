@@ -1,0 +1,112 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    overflow-x:hidden ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+
+h1,h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.contact-container{
+    display: flex;
+}
+
+.contact-info{
+    margin-top: 5px;
+}
+
+.image img{
+    border-radius: 5px;
+}
+
+.summary{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 30px;
+    text-align: center;
+}
+.experience{
+    padding: 10px;
+    
+}
+.experience-container{
+    margin-left: 30px;
+ 
+}
+
+.education{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.skills-container{
+    display: flex;
+}
+
+.language{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.language-container{
+    display: flex;
+}
+
+.licenses{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.reference{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.footer{
+    padding: 10px;
+}
+
+.footer p{
+    text-align: center;
+}
+
+@media (max-width: 769px){
+    body{
+        text-align: center;
+        font: 15px;
+    }
+    .contact-container,.language-container,.skills-container{
+        display: block;
+
+    }
+
+    .contact-container{
+        padding: 5px;
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+}
